@@ -1,0 +1,37 @@
+.sombreado{
+    -webkit-box-shadow: 5px 0px 0px 1px rgba(0,0,0,0.69); 
+    box-shadow: 5px 0px 0px 1px rgba(0,0,0,0.69);
+}
+.card{
+    height: 190px;
+}
+.nav-item{
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-item:hover{
+    font-size: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.imagen-nav{
+    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    display: block;
+    width: 30px;
+    height: 24px;
+    transform-origin: center center;
+}
+.imagen-nav:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
